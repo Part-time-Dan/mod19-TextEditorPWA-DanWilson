@@ -26,7 +26,7 @@ Specific criteria for this project were to provide necessary packages and add co
 - [Questions](#questions)
 - [License](#license)
 - [Link](#link)
-- [Images](#images)
+<!--- [Images](#images) -->
 
 ## Installation
 
@@ -74,14 +74,6 @@ For additional license information, please follow the link: [MIT](https://choose
 
 <!-- [Heroku Deployment](get deploy link) -->
 
-## Images
+<!-- ## Images -->
 
-![image]
-
-![image]
-
-![image]
-
-![image]
-
-<!-- images of deployed site, 1 of manifest, 1 of indexedDB cached data, 1 of offline, 1 of installed app running -->
+<!-- images once I can deploy site, 1 of manifest, 1 of indexedDB cached data, 1 of offline, 1 of installed app running -->
