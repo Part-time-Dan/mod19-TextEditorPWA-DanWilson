@@ -2,7 +2,7 @@
 
 # Just Another Text Editor PWA
 
-<!-- [![Deployed](https://www.herokucdn.com/deploy/button.svg)](add Heroku link) -->
+[![Deployed](https://www.herokucdn.com/deploy/button.svg)](https://dw-pwa-jate-ptd-63fb8dd4fd48.herokuapp.com/)
 
 Utilize Progressive Web Application packages and standards to cache and store content from a text editor, make it available offline so work isn't lost, and allow it to be installed as a standalone app on a device.
 
@@ -26,7 +26,7 @@ Specific criteria for this project were to provide necessary packages and add co
 - [Questions](#questions)
 - [License](#license)
 - [Link](#link)
-<!--- [Images](#images) -->
+- [Images](#images)
 
 ## Installation
 
@@ -51,6 +51,10 @@ The app runs in web browsers and can also be installed locally. The application 
 
 The features specifically added to this project to make it a PWA can be viewed using Chrome dev tools> Inspect and going to the "Application" tab. On the side bar, you can find the Manifest and Service Workers to verify this is a PWA. Also in the side bar, under "Storage" you can see the application storing the users data under IndexedDB > JATE.
 
+To confirm the stored data is updating, or manipulate the cache, use the tools in the key search bar at the top (refresh, clear object store, delete selected)
+
+![Application storage toolbar](/assets/database-buttons.png)
+
 ## Contributions
 
 This is an educational project. No contributions are being accepted.
@@ -72,8 +76,14 @@ For additional license information, please follow the link: [MIT](https://choose
 
 ## Link
 
-<!-- [Heroku Deployment](get deploy link) -->
+[Just Another Text Editor](https://dw-pwa-jate-ptd-63fb8dd4fd48.herokuapp.com/)
 
-<!-- ## Images -->
+## Images
 
-<!-- images once I can deploy site, 1 of manifest, 1 of indexedDB cached data, 1 of offline, 1 of installed app running -->
+![App deployed and running in browser](/assets/pwa-heroku-deploy.PNG)
+
+![App caching in offline mode](/assets/pwa-offline-mode.PNG)
+
+![App indexedDB "JATE" cache updating](/assets/pwa-indexedDB.PNG)
+
+![App installed locally on Windows](/assets/pwa-installed.PNG)
